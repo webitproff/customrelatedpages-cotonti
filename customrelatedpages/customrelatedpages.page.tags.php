@@ -2,7 +2,6 @@
 /**
  * [BEGIN_COT_EXT]
  * Hooks=page.tags
- * Tags=page.tpl:{PAGE_CUSTOMRELATED}
  * [END_COT_EXT]
  */
 /**
@@ -195,4 +194,5 @@ if (!empty($related_pages)) {
 
     // После обработки всех строк парсим основной блок связанных страниц
     $t->parse('MAIN.CUSTOMRELATED_PAGES');
+
 }
